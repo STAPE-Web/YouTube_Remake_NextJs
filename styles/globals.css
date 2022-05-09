@@ -1,16 +1,58 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .header {
+        @apply bg-[#202020];
+    }
+
+    .body {
+        @apply bg-[#181818];
+    }
+
+    .search {
+        @apply bg-[#121212];
+    }
+
+    .btns {
+        @apply bg-[#383838];
+    }
+
+    .textVid {
+        @apply text-[#aaa];
+    }
+
+    .sub {
+        @apply bg-[#cc0000]
+    }
+
+    .channel {
+        @apply bg-[#0F0F0F]
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar {
+    display: none;
 }
 
 * {
-  box-sizing: border-box;
+    outline: none;
+}
+
+.trend {
+    margin-left: -272px;
+}
+
+.trendLine {
+    padding-left: 272px;
+}
+
+.controls {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent);
+}
+
+.modalBg {
+    background: rgba(33, 33, 33, 0.98);
 }

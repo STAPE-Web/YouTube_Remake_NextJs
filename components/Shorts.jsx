@@ -93,7 +93,7 @@ const Shorts = ({ post }) => {
                     </div>
                 ))}
             </div>
-        </div >
+        </div>
     )
 }
 

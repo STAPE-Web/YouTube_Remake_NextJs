@@ -31,6 +31,6 @@ export default function search() {
                     {videoList.map((video) => <Video post={video} key={video.id} />)}
                 </div>
             </div>
-        </div >
+        </div>
     )
 }

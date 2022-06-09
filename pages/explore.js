@@ -60,6 +60,6 @@ export default function explore() {
                     {videoList.map((video) => <VideoLine post={video} key={video.id} />)}
                 </div>
             </div>
-        </div >
+        </div>
     )
 }

@@ -30,7 +30,7 @@ const Header = ({ setModalRef }) => {
             </form>
             <img className="h-8 cursor-pointer rounded-full" src="https://avatars.githubusercontent.com/u/72465053?v=4" onClick={modal} alt="" />
 
-        </header >
+        </header>
     )
 }
 

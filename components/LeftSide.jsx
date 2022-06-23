@@ -25,7 +25,7 @@ const LeftSide = () => {
             name: 'Subscriptions',
             icon: CollectionIcon,
             path: '/subscriptions'
-        },
+        }
     ]
 
     return (
